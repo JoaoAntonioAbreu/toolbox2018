@@ -1,0 +1,53 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+   }
+
+.quadrado1 {
+    width: 75px;
+    height: 50px;
+    margin: 10px;
+    order: 3;
+    flex-shrink: 0;
+    flex-grow: 3;
+    flex-basis: 50px;
+    flex: auto;
+    align-self: auto;
+    background-color: red
+}
+
+.quadrado2 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    order: 2;
+    flex-shrink: 2;
+    flex-grow: 2;
+    flex-basis: 350px;
+    flex: auto;
+    align-self: auto;
+    background-color: green
+}
+        
+.quadrado3 {
+    width: 50px;
+    height: 75px;
+    margin: 10px;
+    order: 1;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 250px;
+    flex: auto;
+    align-self: auto;
+    background-color: blue
+}
+
+
+/*.quadrado{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color:red;
+    box-shadow: 0px 0px 1px 9px black
+
+} */

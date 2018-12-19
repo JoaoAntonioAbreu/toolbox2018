@@ -1,0 +1,11 @@
+.flexwrapper {
+    background-color: indigo;
+    display: flex;
+    flex-direction: column;
+   }
+   .flexItems {
+    display: flex;
+    align-items: center;
+    min-height: 6.25rem;
+    padding: 1rem;
+   }
